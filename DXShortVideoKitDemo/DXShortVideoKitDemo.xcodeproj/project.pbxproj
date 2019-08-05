@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0941E61E386BAA1375B0D550 /* libPods-DXShortVideoKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0729F2646127575A6355C32 /* libPods-DXShortVideoKitDemo.a */; };
 		21B8A24322F7D1F50034F7E2 /* DXVProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A24222F7D1F50034F7E2 /* DXVProgressView.m */; };
 		21B8A24722F7DCFC0034F7E2 /* DXVShootingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A24622F7DCFC0034F7E2 /* DXVShootingView.m */; };
 		21B8A24A22F7DE180034F7E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B8A24922F7DE180034F7E2 /* AVFoundation.framework */; };
 		21B8A24D22F7DE550034F7E2 /* DXVVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A24C22F7DE550034F7E2 /* DXVVideoModel.m */; };
+		21B8A25122F81EF70034F7E2 /* DXVShootingMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B8A25022F81EF70034F7E2 /* DXVShootingMenuView.m */; };
 		21E8DF0122F6CAB3002A5701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8DF0022F6CAB3002A5701 /* AppDelegate.m */; };
 		21E8DF0422F6CAB3002A5701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E8DF0322F6CAB3002A5701 /* ViewController.m */; };
 		21E8DF0722F6CAB3002A5701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E8DF0522F6CAB3002A5701 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		21B8A24922F7DE180034F7E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		21B8A24B22F7DE550034F7E2 /* DXVVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXVVideoModel.h; sourceTree = "<group>"; };
 		21B8A24C22F7DE550034F7E2 /* DXVVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXVVideoModel.m; sourceTree = "<group>"; };
+		21B8A24F22F81EF70034F7E2 /* DXVShootingMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXVShootingMenuView.h; sourceTree = "<group>"; };
+		21B8A25022F81EF70034F7E2 /* DXVShootingMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXVShootingMenuView.m; sourceTree = "<group>"; };
 		21E8DEFC22F6CAB3002A5701 /* DXShortVideoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXShortVideoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E8DEFF22F6CAB3002A5701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21E8DF0022F6CAB3002A5701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,6 +42,9 @@
 		21E8DF0B22F6CAB4002A5701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E8DF0D22F6CAB4002A5701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21E8DF0E22F6CAB4002A5701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA6FC1EE4FE632D26EA4C77 /* Pods-DXShortVideoKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXShortVideoKitDemo.release.xcconfig"; path = "Target Support Files/Pods-DXShortVideoKitDemo/Pods-DXShortVideoKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		921A9B7BD2A146CB2CC14A16 /* Pods-DXShortVideoKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXShortVideoKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-DXShortVideoKitDemo/Pods-DXShortVideoKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0729F2646127575A6355C32 /* libPods-DXShortVideoKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DXShortVideoKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,12 +53,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B8A24A22F7DE180034F7E2 /* AVFoundation.framework in Frameworks */,
+				0941E61E386BAA1375B0D550 /* libPods-DXShortVideoKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A9E9EA86E53430B2911DD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				921A9B7BD2A146CB2CC14A16 /* Pods-DXShortVideoKitDemo.debug.xcconfig */,
+				6BA6FC1EE4FE632D26EA4C77 /* Pods-DXShortVideoKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		21B8A24022F7D1E60034F7E2 /* DXVProgressView */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +83,18 @@
 			isa = PBXGroup;
 			children = (
 				21B8A24922F7DE180034F7E2 /* AVFoundation.framework */,
+				F0729F2646127575A6355C32 /* libPods-DXShortVideoKitDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21B8A24E22F81ED30034F7E2 /* DXShootingMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				21B8A24F22F81EF70034F7E2 /* DXVShootingMenuView.h */,
+				21B8A25022F81EF70034F7E2 /* DXVShootingMenuView.m */,
+			);
+			path = DXShootingMenuView;
 			sourceTree = "<group>";
 		};
 		21E8DEF322F6CAB3002A5701 = {
@@ -75,6 +103,7 @@
 				21E8DEFE22F6CAB3002A5701 /* DXShortVideoKitDemo */,
 				21E8DEFD22F6CAB3002A5701 /* Products */,
 				21B8A24822F7DE180034F7E2 /* Frameworks */,
+				01A9E9EA86E53430B2911DD4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +118,7 @@
 		21E8DEFE22F6CAB3002A5701 /* DXShortVideoKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21B8A24E22F81ED30034F7E2 /* DXShootingMenuView */,
 				21B8A24B22F7DE550034F7E2 /* DXVVideoModel.h */,
 				21B8A24C22F7DE550034F7E2 /* DXVVideoModel.m */,
 				21B8A24522F7DCFC0034F7E2 /* DXVShootingView.h */,
@@ -115,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21E8DF1222F6CAB4002A5701 /* Build configuration list for PBXNativeTarget "DXShortVideoKitDemo" */;
 			buildPhases = (
+				33A471CCDEC30B23C406CEA9 /* [CP] Check Pods Manifest.lock */,
 				21E8DEF822F6CAB3002A5701 /* Sources */,
 				21E8DEF922F6CAB3002A5701 /* Frameworks */,
 				21E8DEFA22F6CAB3002A5701 /* Resources */,
+				4701055DC0E47AF8BCC45B6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +205,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33A471CCDEC30B23C406CEA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DXShortVideoKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4701055DC0E47AF8BCC45B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DXShortVideoKitDemo/Pods-DXShortVideoKitDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DXShortVideoKitDemo/Pods-DXShortVideoKitDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXShortVideoKitDemo/Pods-DXShortVideoKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21E8DEF822F6CAB3002A5701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -184,6 +258,7 @@
 				21E8DF0F22F6CAB4002A5701 /* main.m in Sources */,
 				21B8A24322F7D1F50034F7E2 /* DXVProgressView.m in Sources */,
 				21E8DF0122F6CAB3002A5701 /* AppDelegate.m in Sources */,
+				21B8A25122F81EF70034F7E2 /* DXVShootingMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +398,7 @@
 		};
 		21E8DF1322F6CAB4002A5701 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921A9B7BD2A146CB2CC14A16 /* Pods-DXShortVideoKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +416,7 @@
 		};
 		21E8DF1422F6CAB4002A5701 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA6FC1EE4FE632D26EA4C77 /* Pods-DXShortVideoKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
